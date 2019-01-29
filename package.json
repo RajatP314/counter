@@ -2,11 +2,8 @@
 {
   "name": "counter",
   "version": "0.0.1",
-  "description": "multi-phone controller",
+  "description": "multi-phone counter",
   "main": "index.js",
-  "scripts": {
-    "test": "console.log('hi');"
-  },
   "author": "",
   "license": "ISC",
   "scripts": {
