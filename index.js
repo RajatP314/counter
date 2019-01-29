@@ -7,7 +7,7 @@ const server = http.createServer((req, res) => {
  let u = new URL('https://one-counter.herokuapp.com'+req.url);
 if(u.pathname === '/save'){
  counter = parseInt(u.search.substring(1));
- res.end("0");
+ res.end("-1");
 }
   res.end(''+counter);
 });
