@@ -4,7 +4,6 @@ let url = require('url');
 let counter = 0;
 
 const server = http.createServer((req, res) => {
-  res.statusCode = 200;
  let u = new URL(req.url);
 if(u.pathname === '/save'){
  counter = parseInt(u.search.substring(1));
