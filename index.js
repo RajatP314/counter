@@ -1,5 +1,5 @@
 let http = require('http');
-let url = require('url');
+let URL = require('url').URL;
 
 let counter = 0;
 
